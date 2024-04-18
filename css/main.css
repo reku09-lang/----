@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background-image: url(../image/markus-winkler-aYPtEknQmXE-unsplash.jpg);
+}
+
+#top, #middle, #bottom {
+    display: flex;
+}
+
+.cell {
+    height: 170px;
+    width: 170px;
+    border: 6px solid #000;
+    font-size: 110px;
+    background-color: #ffffffbb;
+    margin: 5px 5px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.term {
+    border: 4px solid #000;
+    background-color: #ffffffbb;
+    width: 300px;
+    margin: 16px auto;
+}
+
+.judge {
+    font-size: 32px;
+}
+
+.box {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.tagP {
+    position: relative;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+    transform: scale(0.2);
+    position: absolute;
+    left: 60%;
+    top: 78%;
+    display: none;
+}
